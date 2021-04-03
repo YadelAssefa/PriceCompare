@@ -74,7 +74,7 @@ Optional:
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/YadelAssefa/PriceCompare/blob/main/photo_2021-04-02_23-55-39.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
