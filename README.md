@@ -100,14 +100,14 @@ Optional:
 - [Add list of network requests by screen ]
 
 * Home Feed Screen
-    (Read/GET) Query all posts where user is author
-    (Create/POST) Create a new post
-    (Delete) Delete existing post
+    * (Read/GET) Query all posts where user is author
+    * (Create/POST) Create a new post
+    * (Delete) Delete existing post
 * Create Post Screen
-    (Create/POST) Create a new post object
+    * (Create/POST) Create a new post object
 * Profile Screen
-    (Read/GET) Query logged in user object
-    (Update/PUT) Update user profile image
+    * (Read/GET) Query logged in user object
+    * (Update/PUT) Update user profile image
 
 - [Create basic snippets for each Parse network request]
 
