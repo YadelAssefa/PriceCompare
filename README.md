@@ -74,17 +74,42 @@ Optional:
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://github.com/YadelAssefa/PriceCompare/blob/main/photo_2021-04-02_23-55-39.jpg" width=600>
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+| Property    | Type            | Description      |
+| --------    | --------        | --------         |
+| objectId    | String          | Unique Id for the item to sell   |
+| author      | Pointer to User | Post author     |
+| image       | File            | Image associated with the item to sell     |
+| price       | Number          | Price of the item     |
+| priceList   | Array           | List of the different prices     |
+| priceCount  | Number          | Number of the different prices for the same item     |
+| createdAt   | DateTime        | Date when the post is created    |
+
+
+
 ### Networking
 - [Add list of network requests by screen ]
+
+* Home Feed Screen
+    (Read/GET) Query all posts where user is author
+    (Create/POST) Create a new post
+    (Delete) Delete existing post
+* Create Post Screen
+    (Create/POST) Create a new post object
+* Profile Screen
+    (Read/GET) Query logged in user object
+    (Update/PUT) Update user profile image
+
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+![](https://i.imgur.com/skCmazd.png)
+
