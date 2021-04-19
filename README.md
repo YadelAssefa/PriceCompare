@@ -28,7 +28,7 @@ Since the start of COVID a lot of shoppers have turned online and many have spen
 
 **Required Must-have Stories**
 
-* User logs in to access previous purchases and the browse page
+*[-] User logs in to access previous purchases and the browse page
 * User picks what item they are planning to buy
 * User has the option to go and buy off of the cheaper seller or to stick with the current seller
 * Profile pages for each user
